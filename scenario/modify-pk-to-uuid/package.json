@@ -1,0 +1,10 @@
+{
+  "name": "modify-pk-to-uuid",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "docker:start": "docker compose up",
+    "docker:stop": "docker compose down -v"
+  }
+}
