@@ -5,6 +5,8 @@
   "license": "MIT",
   "scripts": {
     "docker:start": "docker compose up",
-    "docker:stop": "docker compose down -v"
-  }
+    "docker:stop": "docker compose down -v",
+    "test": "k6"
+  },
+  "devDependencies": {}
 }

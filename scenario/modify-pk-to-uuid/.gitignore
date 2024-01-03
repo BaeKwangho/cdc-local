@@ -1,1 +1,5 @@
+# DB settings
 /db_init/*.sql
+
+# Packages
+/node_modules
