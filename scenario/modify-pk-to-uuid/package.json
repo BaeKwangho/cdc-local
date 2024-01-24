@@ -8,6 +8,7 @@
   "scripts": {
     "docker:start": "docker compose up",
     "docker:stop": "docker compose down -v",
+    "docker:load:up": "docker compose up --scale nest=5",
     "test:k6": "k6",
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
